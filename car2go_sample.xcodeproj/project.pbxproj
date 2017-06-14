@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72097BF2D766BF15468BB04A /* Pods_car2go_sample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D26DF45165F6CB7017E7268 /* Pods_car2go_sample.framework */; };
+		E91FD7BD1EEEBF3C00EF267E /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E91FD7BC1EEEBF3C00EF267E /* Vehicle.swift */; };
+		E92379581EF13994006A77BE /* FMAnnotationCurrent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92379571EF13994006A77BE /* FMAnnotationCurrent.swift */; };
+		E92CAEAA1EF0A1240020BF65 /* FMViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CAEA91EF0A1240020BF65 /* FMViewController+TableView.swift */; };
+		E92CAEAC1EF0A4C70020BF65 /* FMAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CAEAB1EF0A4C70020BF65 /* FMAnnotation.swift */; };
+		E92CAEAE1EF0A7120020BF65 /* FMPinAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E92CAEAD1EF0A7120020BF65 /* FMPinAnnotationView.swift */; };
+		E93C564E1EEEB66500F0636E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93C564D1EEEB66500F0636E /* AppDelegate.swift */; };
+		E93C56531EEEB66500F0636E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93C56511EEEB66500F0636E /* Main.storyboard */; };
+		E93C56551EEEB66500F0636E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E93C56541EEEB66500F0636E /* Assets.xcassets */; };
+		E93C56581EEEB66500F0636E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E93C56561EEEB66500F0636E /* LaunchScreen.storyboard */; };
+		E93FB8131EEEB971009DB540 /* FMViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E93FB8121EEEB971009DB540 /* FMViewController.swift */; };
+		E97DB0661EF01AFE0078A8D4 /* Placemarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DB0651EF01AFE0078A8D4 /* Placemarks.swift */; };
+		E97DB0691EF0429D0078A8D4 /* FMAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DB0681EF0429D0078A8D4 /* FMAPIManager.swift */; };
+		E97DB06C1EF043AB0078A8D4 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97DB06B1EF043AB0078A8D4 /* Const.swift */; };
+		E9D1C1101EF06D900069353F /* FMViewController+Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9D1C10F1EF06D900069353F /* FMViewController+Location.swift */; };
+		E9DEF9AD1EF04D8D007F7FA2 /* FMTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DEF9AC1EF04D8D007F7FA2 /* FMTableViewCell.swift */; };
+		E9DEF9AF1EF05662007F7FA2 /* FMViewController+Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9DEF9AE1EF05662007F7FA2 /* FMViewController+Map.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D3C9571484492174ECBC089 /* Pods-car2go_sample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-car2go_sample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-car2go_sample/Pods-car2go_sample.debug.xcconfig"; sourceTree = "<group>"; };
+		5D26DF45165F6CB7017E7268 /* Pods_car2go_sample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_car2go_sample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C484E0C61717054DCFB954 /* Pods-car2go_sample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-car2go_sample.release.xcconfig"; path = "Pods/Target Support Files/Pods-car2go_sample/Pods-car2go_sample.release.xcconfig"; sourceTree = "<group>"; };
+		E91FD7BC1EEEBF3C00EF267E /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Vehicle.swift; path = Model/Vehicle.swift; sourceTree = "<group>"; };
+		E92379571EF13994006A77BE /* FMAnnotationCurrent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMAnnotationCurrent.swift; path = ViewController/FMAnnotationCurrent.swift; sourceTree = "<group>"; };
+		E92CAEA91EF0A1240020BF65 /* FMViewController+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FMViewController+TableView.swift"; path = "ViewController/FMViewController+TableView.swift"; sourceTree = "<group>"; };
+		E92CAEAB1EF0A4C70020BF65 /* FMAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMAnnotation.swift; path = ViewController/FMAnnotation.swift; sourceTree = "<group>"; };
+		E92CAEAD1EF0A7120020BF65 /* FMPinAnnotationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMPinAnnotationView.swift; path = ViewController/FMPinAnnotationView.swift; sourceTree = "<group>"; };
+		E93C564A1EEEB66500F0636E /* car2go_sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = car2go_sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E93C564D1EEEB66500F0636E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E93C56521EEEB66500F0636E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E93C56541EEEB66500F0636E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E93C56571EEEB66500F0636E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E93C56591EEEB66500F0636E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E93FB8121EEEB971009DB540 /* FMViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FMViewController.swift; path = ViewController/FMViewController.swift; sourceTree = "<group>"; };
+		E93FB8151EEEBA13009DB540 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E93FB8161EEEBA18009DB540 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		E97DB0651EF01AFE0078A8D4 /* Placemarks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Placemarks.swift; path = Model/Placemarks.swift; sourceTree = "<group>"; };
+		E97DB0681EF0429D0078A8D4 /* FMAPIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMAPIManager.swift; path = Network/FMAPIManager.swift; sourceTree = "<group>"; };
+		E97DB06B1EF043AB0078A8D4 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Const.swift; path = Common/Const.swift; sourceTree = "<group>"; };
+		E9D1C10F1EF06D900069353F /* FMViewController+Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FMViewController+Location.swift"; path = "ViewController/FMViewController+Location.swift"; sourceTree = "<group>"; };
+		E9DEF9AC1EF04D8D007F7FA2 /* FMTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FMTableViewCell.swift; path = ViewController/FMTableViewCell.swift; sourceTree = "<group>"; };
+		E9DEF9AE1EF05662007F7FA2 /* FMViewController+Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "FMViewController+Map.swift"; path = "ViewController/FMViewController+Map.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E93C56471EEEB66500F0636E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72097BF2D766BF15468BB04A /* Pods_car2go_sample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20915BE71B2826490675A73B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1D3C9571484492174ECBC089 /* Pods-car2go_sample.debug.xcconfig */,
+				C0C484E0C61717054DCFB954 /* Pods-car2go_sample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E92379591EF14281006A77BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E9DEF9AC1EF04D8D007F7FA2 /* FMTableViewCell.swift */,
+				E92CAEAB1EF0A4C70020BF65 /* FMAnnotation.swift */,
+				E92379571EF13994006A77BE /* FMAnnotationCurrent.swift */,
+				E92CAEAD1EF0A7120020BF65 /* FMPinAnnotationView.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E93C56411EEEB66500F0636E = {
+			isa = PBXGroup;
+			children = (
+				E93C564C1EEEB66500F0636E /* car2go_sample */,
+				E93C564B1EEEB66500F0636E /* Products */,
+				E93FB8141EEEBA13009DB540 /* Frameworks */,
+				20915BE71B2826490675A73B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E93C564B1EEEB66500F0636E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E93C564A1EEEB66500F0636E /* car2go_sample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E93C564C1EEEB66500F0636E /* car2go_sample */ = {
+			isa = PBXGroup;
+			children = (
+				E93C564D1EEEB66500F0636E /* AppDelegate.swift */,
+				E97DB06A1EF0438B0078A8D4 /* Common */,
+				E97DB06B1EF043AB0078A8D4 /* Const.swift */,
+				E93FB8111EEEB946009DB540 /* ViewController */,
+				E92379591EF14281006A77BE /* View */,
+				E9A9B6DB1EEEBED000B980A0 /* Model */,
+				E97DB0671EF0427C0078A8D4 /* Network */,
+				E93C56511EEEB66500F0636E /* Main.storyboard */,
+				E93C56541EEEB66500F0636E /* Assets.xcassets */,
+				E93C56561EEEB66500F0636E /* LaunchScreen.storyboard */,
+				E93C56591EEEB66500F0636E /* Info.plist */,
+			);
+			path = car2go_sample;
+			sourceTree = "<group>";
+		};
+		E93FB8111EEEB946009DB540 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E93FB8121EEEB971009DB540 /* FMViewController.swift */,
+				E9D1C10F1EF06D900069353F /* FMViewController+Location.swift */,
+				E9DEF9AE1EF05662007F7FA2 /* FMViewController+Map.swift */,
+				E92CAEA91EF0A1240020BF65 /* FMViewController+TableView.swift */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		E93FB8141EEEBA13009DB540 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E93FB8161EEEBA18009DB540 /* CoreLocation.framework */,
+				E93FB8151EEEBA13009DB540 /* MapKit.framework */,
+				5D26DF45165F6CB7017E7268 /* Pods_car2go_sample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E97DB0671EF0427C0078A8D4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E97DB0681EF0429D0078A8D4 /* FMAPIManager.swift */,
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		E97DB06A1EF0438B0078A8D4 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		E9A9B6DB1EEEBED000B980A0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E97DB0651EF01AFE0078A8D4 /* Placemarks.swift */,
+				E91FD7BC1EEEBF3C00EF267E /* Vehicle.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E93C56491EEEB66500F0636E /* car2go_sample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E93C565C1EEEB66500F0636E /* Build configuration list for PBXNativeTarget "car2go_sample" */;
+			buildPhases = (
+				9B2EC80DB8A6F8AA0D195176 /* [CP] Check Pods Manifest.lock */,
+				E93C56461EEEB66500F0636E /* Sources */,
+				E93C56471EEEB66500F0636E /* Frameworks */,
+				E93C56481EEEB66500F0636E /* Resources */,
+				E79B2842A2877B404B2806E1 /* [CP] Embed Pods Frameworks */,
+				B08163A7574EE3394B1162A8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = car2go_sample;
+			productName = car2go_sample;
+			productReference = E93C564A1EEEB66500F0636E /* car2go_sample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E93C56421EEEB66500F0636E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = kokaru;
+				TargetAttributes = {
+					E93C56491EEEB66500F0636E = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 67PV5N339K;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E93C56451EEEB66500F0636E /* Build configuration list for PBXProject "car2go_sample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E93C56411EEEB66500F0636E;
+			productRefGroup = E93C564B1EEEB66500F0636E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E93C56491EEEB66500F0636E /* car2go_sample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E93C56481EEEB66500F0636E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E93C56581EEEB66500F0636E /* LaunchScreen.storyboard in Resources */,
+				E93C56551EEEB66500F0636E /* Assets.xcassets in Resources */,
+				E93C56531EEEB66500F0636E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B2EC80DB8A6F8AA0D195176 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B08163A7574EE3394B1162A8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-car2go_sample/Pods-car2go_sample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E79B2842A2877B404B2806E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-car2go_sample/Pods-car2go_sample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E93C56461EEEB66500F0636E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E92CAEAE1EF0A7120020BF65 /* FMPinAnnotationView.swift in Sources */,
+				E9D1C1101EF06D900069353F /* FMViewController+Location.swift in Sources */,
+				E9DEF9AF1EF05662007F7FA2 /* FMViewController+Map.swift in Sources */,
+				E9DEF9AD1EF04D8D007F7FA2 /* FMTableViewCell.swift in Sources */,
+				E93FB8131EEEB971009DB540 /* FMViewController.swift in Sources */,
+				E93C564E1EEEB66500F0636E /* AppDelegate.swift in Sources */,
+				E91FD7BD1EEEBF3C00EF267E /* Vehicle.swift in Sources */,
+				E92CAEAA1EF0A1240020BF65 /* FMViewController+TableView.swift in Sources */,
+				E97DB0691EF0429D0078A8D4 /* FMAPIManager.swift in Sources */,
+				E97DB0661EF01AFE0078A8D4 /* Placemarks.swift in Sources */,
+				E92CAEAC1EF0A4C70020BF65 /* FMAnnotation.swift in Sources */,
+				E97DB06C1EF043AB0078A8D4 /* Const.swift in Sources */,
+				E92379581EF13994006A77BE /* FMAnnotationCurrent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E93C56511EEEB66500F0636E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E93C56521EEEB66500F0636E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E93C56561EEEB66500F0636E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E93C56571EEEB66500F0636E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E93C565A1EEEB66500F0636E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E93C565B1EEEB66500F0636E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E93C565D1EEEB66500F0636E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3C9571484492174ECBC089 /* Pods-car2go_sample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67PV5N339K;
+				INFOPLIST_FILE = car2go_sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "car2go-sample.swift.com.kokaru.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E93C565E1EEEB66500F0636E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0C484E0C61717054DCFB954 /* Pods-car2go_sample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67PV5N339K;
+				INFOPLIST_FILE = car2go_sample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "car2go-sample.swift.com.kokaru.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E93C56451EEEB66500F0636E /* Build configuration list for PBXProject "car2go_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93C565A1EEEB66500F0636E /* Debug */,
+				E93C565B1EEEB66500F0636E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E93C565C1EEEB66500F0636E /* Build configuration list for PBXNativeTarget "car2go_sample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E93C565D1EEEB66500F0636E /* Debug */,
+				E93C565E1EEEB66500F0636E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E93C56421EEEB66500F0636E /* Project object */;
+}
