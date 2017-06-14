@@ -1,4 +1,4 @@
-language: objective-c
+language: swift
 osx_image: xcode8.3
 before_install:
     - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
